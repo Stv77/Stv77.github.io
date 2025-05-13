@@ -1,6 +1,3 @@
-German Word,Article,Plural Form,English Meaning
-German Word,Article,Plural Form,English Meaning (if needed)
-----------------------,-------,-----------------,---------------------------
 Anweisung,die,Anweisungen,instruction
 Anzeige,die,Anzeigen,advertisement/report
 anziehen,–,–,to put on
@@ -149,10 +146,7 @@ Betonung,die,Betonungen,emphasis
 Betreff,der,Betreffe,subject (of an email)
 betreuen,–,–,to take care of / supervise
 Bett,das,Betten,bed
-German Word,Article,Plural Form,English Meaning (if needed)
------------------------,-------,-----------,----------------------------
 bewegen,-,-,to move
-alphabetische Wortliste,-,-,alphabetical word list
 Bewegung,die,-en,movement
 Bewerbung,die,-en,application
 Bewohner,der,-,inhabitant (masculine)
@@ -253,7 +247,6 @@ Demonstrativartikel,der,-,demonstrative article
 den,-,-,"the (accusative, masculine)"
 denken,-,-,to think
 denn,-,-,because
-der,der,-,the (masculine)
 Design,das,-s,design
 Designer,der,-,designer (masculine)
 Designerin,die,-nen,designer (feminine)
@@ -299,8 +292,6 @@ echt,-,-,"real, genuine"
 Ecke,die,-n,corner
 egal,-,-,equal
 Ehefrau,die,-en,wife
-German Word,Article,Plural Form,English Meaning
-----------------,--------,-----------,---------------------------
 Ehemann,der,-,husband
 Ei,das,-er,egg
 eigene,-,-,own
@@ -356,7 +347,6 @@ entdecken,-,-,to discover
 Entscheidung,die,-en,decision
 entschuldigen,-,-,to apologize
 Entschuldigung,die,-en,apology
-er,-,-,he
 Erdgeschoss,das,-e,ground floor
 Ereignis,das,-se,event
 Erfindung,die,-en,invention
@@ -405,11 +395,8 @@ Fehler,der,-e,mistake
 Feier,die,-n,celebration
 Feierabend,der,-e,end of work day
 feiern,-,-,to celebrate
-German Word,Article,Plural Form,English Meaning
------------------,-------,-----------,------------------------------------
 frei,-,-,"free, available"
 freilhaben,-,-,to be off work
-Freitag,der,-e,Friday
 Freizeit,die,-,"leisure time, free time"
 Freizeitaktivität,die,-en,leisure activity
 Freizeitkleidung,die,-,leisure clothing
@@ -512,8 +499,6 @@ Halsschmerzen,die,-,sore throat
 Haltestelle,die,-n,bus stop
 Hamster,der,-n,hamster
 Hand,die,-e,hand
-German Word,Article,Plural Form,English Meaning
-------------------,-----------,-------------,------------------------
 Händler,der,-,"dealer, trader"
 Hændlerin,die,-nen,"female trader, dealer"
 Handschuh,der,-e,glove
@@ -547,10 +532,6 @@ Herd,der,-e,stove
 Herr,der,-en,"gentleman, Mr."
 Herrenmode,die,-n,men's fashion
 herzlich,-,-,heartfelt
-heute,-,-,today
-hey,-,-,hey (informal greeting)
-hi,-,-,hi (informal greeting)
-hier,-,-,here
 Hilfe,die,-n,help
 Himmelsrichtung,die,-en,cardinal direction
 hinlegen (sich),-,-,to lay down
@@ -615,12 +596,6 @@ interessant,-,-,interesting
 interessieren,-,-,to interest
 international,-,-,international
 Internet,das,-,internet
-Interrogativartikel| der,-,interrogative article,| Interview
--s,interview,| Italien,-
-Italy,| Italienisch,-,-
-ja (1),-,-,yes
-ja (2),-,-,yes (affirmation)
-Ja-/Nein-Frage,die,-n,yes/no question
 Jacke,die,-n,jacket
 Jahr (1),das,-e,year (duration)
 Jahr (2),das,-e,year (age)
@@ -673,8 +648,6 @@ Kaufhaus,das,-er,department store
 kaum,-,-,hardly
 "kein, keine",-,-,"no, none"
 Keks,der/das,-e,cookie
-German Word,Article,Plural Form,English Meaning
-----------------,-------,-----------,-----------------------------------
 Kellner,der,-,waiter
 Kellnerin,die,-nen,waitress
 kennen,-,-,to know (a person)
@@ -805,8 +778,6 @@ Mal,das,-e,time (event)
 malen,-,-,to paint
 Mann,der,⸻er,man
 Mann (2),der,⸻er,husband
-German Word,Article,Plural Form,English Meaning
-----------------,-------,-----------,------------------------------------------
 Mann,der,Männer,man
 männlich,-,-,masculine
 Mantel,der,Mäntel,coat
@@ -917,6 +888,7 @@ nachts,-,-,at night
 Nähe,die,-,vicinity
 Name,der,-n,name
 Nase,die,-n,nose
+
 Natur,die,-,nature
 natürlich,-,-,natural
 neben,-,-,next to
@@ -952,8 +924,6 @@ Notärztin,die,-nen,female emergency doctor
 notieren,-,-,to note
 Notiz,die,-en,note
 November,der,-,November
-German Word,Article,Plural Form,English Meaning
-------------------,-------,-----------,-----------------------------------
 Nudel,die,-n,noodle
 Nùll,-,-,zero
 Nùmmer,die,-n,number
@@ -1121,8 +1091,6 @@ Reiseführer (1),der,-,tour guide
 Reiseführer (2),der,-,travel guide
 Reiseführerin,die,-nen,female tour guide
 reisen,-,-,to travel
-German Word,Article,Plural Form,English Meaning
-----------------,-------,-----------,---------------------------
 Reisetasche,die,-n,travel bag
 Reiseziel,das,-e,travel destination
 Religion,die,-en,religion
@@ -1276,8 +1244,6 @@ Ski,der,-,ski
 Schal,der,-s,scarf
 Skifahren,das,-,skiing
 Ski-Urlaub,der,-e,ski vacation
-German Word,Article,Plural Form,English Meaning
------------------,-------,-----------,-----------------------------
 Small Talk,der,-s,Small talk
 Snowboard-Urlaub,der,-e,Snowboard vacation
 so (1),-,-,"so (e.g., Schwimmst du gern?)"
@@ -1434,8 +1400,6 @@ Tipp,der,-s,tip
 Tisch,der,-e,table
 Tochter,die,-n,daughter
 Toilette,die,-n,toilet
-German Word,Article,Plural Form,English Meaning (if needed)
--------------------,-------,-----------,----------------------------
 Tomate,die,-n,tomato
 Tomatensuppe,die,-n,tomato soup
 Top,-,-,top
@@ -1579,8 +1543,6 @@ vormittags,-,-,in the mornings
 Vorname,der,-n,first name
 vorne,-,-,in front
 Vorschlag,der,-e,suggestion
-German Word,Article,Plural Form,English Meaning
-------------------,------------,-----------,---------------------------
 vorspielen,(no article),(no plural),to play beforehand
 vorstellen,(no article),(no plural),to introduce
 Vorteil,der,-e,advantage
