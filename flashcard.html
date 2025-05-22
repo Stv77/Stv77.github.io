@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard App A1</title>
+    <link rel="stylesheet" href="flashcard-style.css">
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
+</head>
+
+<body>
+    <!-- Notification Div -->
+    <div id="notification">
+        <!-- notification message will go here -->
+    </div>
+
+    <!-- Main Content -->
+    <div class="flashcard-container">
+        <div class="checked-counter">
+            Known words: <span id="checked-count">0</span>
+        </div>
+        <div class="flashcard" id="flashcard">
+            <div class="front" id="front">
+                <!-- Word will appear here -->
+                <!-- Front of the Flashcard -->
+            </div>
+            <div class="back" id="back">
+                <!-- Translation will appear here -->
+                <!-- Back of the Flashcard -->
+            </div>
+        </div>
+        <div class="controls">
+            <button id="prev-btn" disabled>Previous</button>
+            <button id="flip-btn">Flip</button>
+            <button id="next-btn" disabled>Next</button>
+        </div>
+        <div class="status-controls">
+            <!-- X Button -->
+            <div class="svg-button" id="cross-btn" aria-label="Close">
+                <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M18.3 5.7a1 1 0 0 0-1.4 0L12 10.6 7.1 5.7a1 1 0 0 0-1.4 1.4L10.6 12l-4.9 4.9a1 1 0 1 0 1.4 1.4l4.9-4.9 4.9 4.9a1 1 0 0 0 1.4-1.4L13.4 12l4.9-4.9a1 1 0 0 0 0-1.4z" />
+                </svg>
+            </div>
+            <!-- Checklist Button -->
+            <div class="svg-button" id="check-btn" aria-label="Checklist">
+                <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M9 16.2l-3.5-3.5a1 1 0 1 1 1.4-1.4l2.1 2.1 5.3-5.3a1 1 0 1 1 1.4 1.4L9 16.2z" />
+                    <path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0zm-2 0a7 7 0 1 0-14 0 7 7 0 0 0 14 0z" />
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="flashcard.js"></script>
+</body>
+
+</html>
