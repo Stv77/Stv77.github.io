@@ -5,7 +5,7 @@ const CHECKED_STORAGE_KEY = 'checkedFlashcards';
 let checkedWords = JSON.parse(localStorage.getItem(CHECKED_STORAGE_KEY)) || [];
 
 // Path to your CSV file (must be in the same folder)
-const CSV_PATH = 'kurs.csv';
+const CSV_PATH = 'kurs-sentences.csv';
 
 // State
 let flashcards = [];
