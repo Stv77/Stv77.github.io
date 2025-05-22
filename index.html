@@ -44,6 +44,17 @@
         .incorrect {
             color: red;
         }
+
+        .nav-button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .nav-button:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 
@@ -55,6 +66,7 @@
         <button onclick="checkAnswer()">Check</button>
         <p id="feedback"></p>
         <button onclick="nextQuestion()">Next Word</button>
+        <button class="nav-button" onclick="window.location.href='flashcard.html'">Go to Flashcards</button>
     </div>
 
     <script>
