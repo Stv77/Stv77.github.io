@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+
+.flashcard-container {
+    perspective: 1000px;
+}
+
+.flashcard {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: transform 0.6s;
+}
+
+.flashcard .front,
+.flashcard .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.flashcard .front {
+    background-color: #007bff;
+    color: white;
+}
+
+.flashcard .back {
+    background-color: #f8f9fa;
+    color: black;
+    transform: rotateY(180deg);
+}
+
+.controls {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.controls button {
+    margin: 5px 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.controls button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+.status-controls {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.checked-counter {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
+
+.svg-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.svg-button:hover {
+    background-color: #e0f7fa;
+    border-color: #00796b;
+}
+
+.svg-button:active {
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.svg-icon {
+    width: 24px;
+    height: 24px;
+    fill: #00796b;
+}
+
+/* Style for notification */
+#notification {
+    display: none;
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    /* Ensures some space between notification and flashcard */
+    position: fixed;
+    top: 20px;
+    /* Positions it near the top of the page */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    /* Makes sure it appears on top of other content */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
