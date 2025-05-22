@@ -6,35 +6,122 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>German Vocabulary Quiz</title>
     <style>
+        /* Reset and base styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: Arial, sans-serif;
-            background: #f0f4f8;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom right, #e0f2ff, #ffffff);
+            min-height: 100vh;
             display: flex;
             flex-direction: column;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background-color: #1e3a8a;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
             align-items: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar .brand {
+            color: #ffffff;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .nav-links a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+            position: relative;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -4px;
+            left: 0;
+            background-color: #ffffff;
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #cbd5e1;
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        /* Main Container */
+        .container {
+            flex: 1;
+            display: flex;
             justify-content: center;
-            height: 100vh;
-            margin: 0;
+            align-items: center;
+            padding: 2rem;
         }
 
         .card {
             background: white;
             padding: 2rem;
-            border-radius: 1rem;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-            max-width: 400px;
+            border-radius: 1.25rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
             width: 100%;
+            max-width: 420px;
             text-align: center;
+        }
+
+        .card h2 {
+            margin-bottom: 1rem;
+            color: #1e293b;
         }
 
         input,
         button {
             margin: 0.5rem 0;
-            padding: 0.5rem;
+            padding: 0.75rem;
             font-size: 1rem;
             width: 100%;
             border-radius: 0.5rem;
-            border: 1px solid #ccc;
+            border: 1px solid #cbd5e1;
+            transition: border 0.3s ease;
+        }
+
+        input:focus {
+            border-color: #3b82f6;
+            outline: none;
+        }
+
+        button {
+            background-color: #3b82f6;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #2563eb;
         }
 
         .correct {
@@ -45,28 +132,34 @@
             color: red;
         }
 
-        .nav-button {
-            background-color: #007bff;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-
-        .nav-button:hover {
-            background-color: #0056b3;
+        @media (max-width: 600px) {
+            .nav-links {
+                flex-direction: column;
+                gap: 0.5rem;
+                align-items: flex-end;
+            }
         }
     </style>
 </head>
 
 <body>
-    <div class="card">
-        <h2 id="question"></h2>
-        <input type="text" id="articleInput" placeholder="Enter the article (der/die/das)">
-        <input type="text" id="translationInput" placeholder="Enter the English translation">
-        <button onclick="checkAnswer()">Check</button>
-        <p id="feedback"></p>
-        <button onclick="nextQuestion()">Next Word</button>
-        <button class="nav-button" onclick="window.location.href='flashcard.html'">Go to Flashcards</button>
+    <nav class="navbar">
+        <div class="brand">YourGerman</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="flashcard.html">Flashcards</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <h2 id="question"></h2>
+            <input type="text" id="articleInput" placeholder="Enter the article (der/die/das)">
+            <input type="text" id="translationInput" placeholder="Enter the English translation">
+            <button onclick="checkAnswer()">Check</button>
+            <p id="feedback"></p>
+            <button onclick="nextQuestion()">Next Word</button>
+        </div>
     </div>
 
     <script>
